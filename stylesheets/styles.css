@@ -1,5 +1,38 @@
 /* all the styles for mock github */
-
+/* line 3, ../sass/styles.scss */
 .hero {
-  
+  padding: 80px 0;
+}
+/* line 5, ../sass/styles.scss */
+.hero > .container > div {
+  float: left;
+}
+/* line 8, ../sass/styles.scss */
+.hero .copy-container {
+  width: 65%;
+  padding-right: 2%;
+}
+/* line 11, ../sass/styles.scss */
+.hero .copy-container *:not(a) {
+  color: white;
+  opacity: 0.9;
+}
+/* line 16, ../sass/styles.scss */
+.hero .form-container {
+  width: 35%;
+  padding-left: 2%;
+}
+/* line 19, ../sass/styles.scss */
+.hero .form-container input {
+  margin-bottom: 8px;
+}
+
+/* line 25, ../sass/styles.scss */
+.hero--backgrounded {
+  background: #222;
+}
+
+/* line 30, ../sass/styles.scss */
+form label {
+  display: block;
 }

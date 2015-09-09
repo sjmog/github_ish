@@ -1,50 +1,40 @@
-/* line 1, ../sass/nav.scss */
 .navigation {
   box-shadow: 0px 1px 1px #ddd;
 }
 
-/* line 5, ../sass/nav.scss */
 .nav-item {
   float: left;
   height: 80px;
 }
 
-/* line 10, ../sass/nav.scss */
 .nav-item > * {
   height: 80px;
 }
 
-/* line 14, ../sass/nav.scss */
 .horizontal-list {
   list-style-type: none;
 }
 
-/* line 18, ../sass/nav.scss */
 .horizontal-list > li {
   float: left;
 }
 
-/* line 22, ../sass/nav.scss */
 .nav-item.brand-container {
   width: 20%;
 }
 
-/* line 26, ../sass/nav.scss */
 .nav-item.search-container {
   width: 30%;
 }
 
-/* line 30, ../sass/nav.scss */
 .nav-item.links-container {
   width: 30%;
 }
 
-/* line 34, ../sass/nav.scss */
 .nav-item.buttons-container {
   width: 20%;
 }
 
-/* line 38, ../sass/nav.scss */
 .nav-item .search-input {
   position: relative;
   height: 28px;
@@ -54,7 +44,6 @@
   margin-top: -14px;
 }
 
-/* line 47, ../sass/nav.scss */
 .nav-item .horizontal-list li {
   position: relative;
   height: 28px;
@@ -63,7 +52,6 @@
   margin-left: 4%;
 }
 
-/* line 55, ../sass/nav.scss */
 .links-container__horizontal-list li a {
   line-height: 28px;
   color: black;
@@ -71,23 +59,19 @@
   font-size: 14px;
 }
 
-/* line 62, ../sass/nav.scss */
 .nav-item.buttons-container li {
   float: right;
   margin-left: 6%;
 }
 
-/* line 67, ../sass/nav.scss */
 .nav-item .button {
   font-size: 14px;
 }
 
-/* line 71, ../sass/nav.scss */
 .nav-item.buttons-container li .button {
   margin-top: -5px;
 }
 
-/* line 75, ../sass/nav.scss */
 .brand {
   display: block;
   height: 70px;

@@ -1,0 +1,7 @@
+/* line 1, ../sass/form.scss */
+input {
+  height: 38px;
+  border-radius: 4px;
+  width: 100%;
+  /*box-shadow: inset 1px 0px 4px 1px #ddd;*/
+}

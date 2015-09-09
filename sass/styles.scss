@@ -1,0 +1,33 @@
+/* all the styles for mock github */
+
+.hero {
+  padding: 80px 0;
+  & > .container > div {
+    float: left;
+  }
+  .copy-container {
+    width: 65%;
+    padding-right: 2%;
+    *:not(a) {
+      color: white;
+      opacity: 0.9;
+    }
+  }
+  .form-container {
+    width: 35%;
+    padding-left: 2%;
+    input {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.hero--backgrounded {
+  background: #222;
+}
+
+form {
+  label {
+    display: block;
+  }
+}
