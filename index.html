@@ -1,7 +1,11 @@
 <html>
   <head>
     <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/buttons.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/overrides.css">
   </head>
   <body>
     <nav class="navigation clearfix">
@@ -44,7 +48,29 @@
         </div>
       </div>
     </nav>
-    <section></section>
+    <section class="hero hero--backgrounded">
+      <div class="copy-container">
+        <h1>Where software is built</h1>
+        <p class="lead">Powerful collaboration, code review, and code management for open source and private projects. Public projects are always free.</p>
+        <p class="lead">
+          <a href="">Private plans start at $7/mo.</a>
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="">
+          <label for="username"><input type="text" placeholder="Pick a username"></label>
+          <label for="email"><input type="text" placeholder="Your email"></label>
+          <label for="password"><input type="password" placeholder="Your password"></label>
+          <span class="hint">
+            <p>Use at least one lowercase letter, one numeral, and seven characters.</p>
+          </span>
+          <input type="submit" class="button button--primary" value="Sign up for GitHub">
+          <span class="hint">
+            <p>By clicking "Sign up for GitHub", you agree to our <a href="#">terms of service</a> and <a href="#">privacy policy</a>. We will send you account related emails occasionally.</p>
+          </span>
+        </form>
+      </div>
+    </section>
     <section></section>
     <section></section>
   </body>
